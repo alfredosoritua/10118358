@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ProfileActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="289dp"
+        android:background="@drawable/bghotcig"></ImageView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="317dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/edo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alfredo Soritua - IF9"
+            android:textAlignment="center"
+            android:textColor="#4a4a4a"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10118358"
+            android:textAlignment="center"
+            android:textColor="#4a4a4a"
+            android:textStyle="italic"
+            android:textSize="30dp"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kebiaaan Saya"
+            android:textAlignment="center"
+            android:textColor="#4a4a4a"
+            android:textStyle="italic"
+            android:textSize="30dp"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="dalam waktu senggang saya sering touring, nongkrong, menonton film dan belajar"
+            android:textAlignment="center"
+            android:textColor="#4a4a4a"
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
